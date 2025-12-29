@@ -1,0 +1,1 @@
+// Save your logo image as "tokto-logo.png" in this public folder

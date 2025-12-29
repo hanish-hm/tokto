@@ -1,0 +1,2 @@
+// Save the brown product image as "tokto-brown.png" 
+// Save the white product image as "tokto-white.png"
