@@ -8,8 +8,8 @@ export default function ContactSection() {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Email',
-      value: 'hello@tokto.com',
-      href: 'mailto:hello@tokto.com',
+      value: 'info@tokto.in',
+      href: 'mailto:info@tokto.in',
       color: 'bg-accent-green'
     },
     {

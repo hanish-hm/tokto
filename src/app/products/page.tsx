@@ -2,20 +2,21 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Products() {
   const products = [
     {
       name: "Tokto Smooth Roll - Brown",
       description: "Perfect smoothness in every toke with our signature brown papers.",
-      price: "₹1,099",
+      price: "₹825",
       features: ["55 Cones", "Ultra-thin paper", "Natural brown color", "Slow burn"],
       image: "/tokto-brown.png"
     },
     {
       name: "Tokto Smooth Roll - White",
       description: "Classic white papers delivering the ultimate smoking experience.",
-      price: "₹1,099", 
+      price: "₹825", 
       features: ["55 Cones", "Pure white paper", "Clean taste", "Even burn"],
       image: "/tokto-white.png"
     }
@@ -72,13 +73,15 @@ export default function Products() {
               
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                 <span className="font-display text-2xl sm:text-3xl text-gradient font-semibold">{product.price}</span>
-                <motion.button 
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-accent-green text-white px-6 py-2 font-body text-sm font-medium tracking-wide hover:bg-green-600 transition-all duration-300 rounded-lg card-shadow w-full sm:w-auto"
-                >
-                  Add to Cart
-                </motion.button>
+                <Link href="/contact">
+                  <motion.button 
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="bg-accent-green text-white px-6 py-2 font-body text-sm font-medium tracking-wide hover:bg-green-600 transition-all duration-300 rounded-lg card-shadow w-full sm:w-auto"
+                  >
+                    Add to Cart
+                  </motion.button>
+                </Link>
               </div>
             </motion.div>
           ))}

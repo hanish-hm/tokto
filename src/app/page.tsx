@@ -19,7 +19,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2, delay: 0.6 }}
-            className="mb-8 sm:mb-10 md:mb-12"
+            className="mb-6 sm:mb-8 md:mb-10 mt-16 sm:mt-20 md:mt-24"
             whileHover={{ scale: 1.02 }}
           >
             <Image 
@@ -250,12 +250,12 @@ export default function Home() {
           
           <div className="space-y-4">
             <div>
-              <a href="mailto:hello@tokto.in" className="font-body text-lg text-accent-green hover:underline">
-                hello@tokto.in
+              <a href="mailto:info@tokto.in" className="font-body text-lg text-accent-green hover:underline">
+                info@tokto.in
               </a>
             </div>
             <div>
-              <a href="https://wa.me/toktoin" className="font-body text-lg text-accent-green hover:underline">
+              <a href="https://wa.me/917011819290" className="font-body text-lg text-accent-green hover:underline">
                 Chat on WhatsApp
               </a><br />
               <span className="font-body text-sm text-medium-gray">@tokto.in</span>
